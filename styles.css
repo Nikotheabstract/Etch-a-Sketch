@@ -7,9 +7,10 @@ flex-direction: column;
 align-items: center;
 }
 
-h2 {
+h3 {
     color: white;
     margin-bottom: 0px;
+    font-family: monospace, sans-serif, serif;
 }
 
 .btn {
@@ -19,14 +20,24 @@ h2 {
     background: linear-gradient(
         90deg,
         blue,
-        aquamarine,
+        lightblue,
         white
       );
     font-weight: 500;
     font-size: 32px;
     border-radius: 30px;
-    border: 0px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    border: none;
+    font-family: monospace, sans-serif, serif;
 }
+
+.btn:hover {
+    box-shadow: 0 0 64px rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+}
+
+
 
 #container {
     display: flex;
@@ -42,9 +53,12 @@ h2 {
     border: solid white;
     box-sizing: border-box;
     aspect-ratio: 1;
+    transition: background-color 0.4s ease;
 }
 
 .child.hovered {
     background-color: lightblue;
   }
+
+
   
