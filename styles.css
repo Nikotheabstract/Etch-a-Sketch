@@ -42,23 +42,19 @@ h3 {
 #container {
     display: flex;
     flex-wrap: wrap;
-    border: solid white;
+    border: solid 1px white;
     width: 680px;
-    
 }
 
 
 
 .child {
-    border: solid white;
+    border: solid 1px white;
     box-sizing: border-box;
     aspect-ratio: 1;
     transition: background-color 0.4s ease;
 }
 
-.child.hovered {
-    background-color: lightblue;
-  }
 
 
   

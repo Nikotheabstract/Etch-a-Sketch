@@ -22,9 +22,6 @@ function create(num){
             child.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
         });
 
-        //child.addEventListener("mouseover", () => {
-        //    child.classList.add("hovered");
-        //});
         child.addEventListener("click", () => {
             child.style.backgroundColor = "black";
         });
