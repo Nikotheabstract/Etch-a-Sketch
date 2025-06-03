@@ -1,0 +1,50 @@
+.body{
+display: flex;
+flex-wrap: nowrap;
+background-color: black;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 0px;
+}
+
+.btn {
+    margin: 16px;
+    padding: 12px;
+    color: black;
+    background: linear-gradient(
+        90deg,
+        blue,
+        aquamarine,
+        white
+      );
+    font-weight: 500;
+    font-size: 32px;
+    border-radius: 30px;
+    border: 0px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid white;
+    width: 680px;
+    
+}
+
+
+
+.child {
+    border: solid white;
+    box-sizing: border-box;
+    aspect-ratio: 1;
+}
+
+.child.hovered {
+    background-color: lightblue;
+  }
+  
